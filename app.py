@@ -294,7 +294,7 @@ categoria_filtro = st.sidebar.selectbox("Categoría:", categorias)
 
 # Filtro de disponibilidad
 estados = ["Todos", "Disponible", "Vendido"]
-estado_filtro = st.sidebar.radio("Estado:", estados)
+estado_filtro = st.sidebar.radio("Estado:", estados, index=1)
 
 # ---------------------------------------------------------------
 # APLICAR FILTROS
